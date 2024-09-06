@@ -5,6 +5,7 @@ import Homepage from "../views/Homepage";
 import DetailPage from "../views/DetailPage";
 import UploadImage from "../views/UploadImage";
 import BookmarkPage from "../views/BookmarkPage";
+import Toastify from "toastify-js";
 
 // const url = `http://localhost:3000`; /*<<<<< ini url localhost*/
 const url = `https://deploy.athiflanang.site`;
