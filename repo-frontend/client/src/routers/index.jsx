@@ -6,8 +6,8 @@ import DetailPage from "../views/DetailPage";
 import UploadImage from "../views/UploadImage";
 import BookmarkPage from "../views/BookmarkPage";
 
-const url = `http://localhost:3000`; /*<<<<< ini url localhost*/
-// const url = `https://server.athiflanang.site`;
+// const url = `http://localhost:3000`; /*<<<<< ini url localhost*/
+const url = `https://deploy.athiflanang.site`;
 
 const router = createBrowserRouter([
   {

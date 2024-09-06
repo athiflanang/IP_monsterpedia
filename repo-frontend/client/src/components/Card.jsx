@@ -6,8 +6,8 @@ export default function Card({ monster }) {
   const navigate = useNavigate();
   const [imgById, setImgById] = useState({});
 
-  const url = `http://localhost:3000`; /*<<<<< ini url localhost*/
-  // const url = `https://server.athiflanang.site`; /*<<<<< ini url site*/
+  // const url = `http://localhost:3000`; /*<<<<< ini url localhost*/
+  const url = `https://deploy.athiflanang.site`; /*<<<<< ini url site*/
 
   async function fetchImageById() {
     try {

@@ -38,7 +38,7 @@ export const fetchAsync = () => async (dispatch) => {
   try {
     dispatch(fetchPending())
 
-    const { data } = await axios.get("http://localhost:3000/monster", {
+    const { data } = await axios.get("https://deploy.athiflanang.site/monster", {
       headers: {
         Authorization: `Bearer ${localStorage.access_token}`,
       },
